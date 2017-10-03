@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/altt2"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="18dp"
+    android:paddingTop="205dp"
+    android:paddingLeft="125dp"
+    android:id="@+id/menu"
+    tools:context="com.example.ductri.ailatyphu.MainMenu">
+
+
+    <Button
+        android:id="@+id/btnplay"
+        android:background="@drawable/style_button"
+        android:layout_width="145dp"
+        android:layout_height="40dp"
+        android:text="PLAY"
+        android:textStyle="bold"
+        android:textColor="#ffff63"
+        android:textSize="18dp"
+        android:layout_marginBottom="10dp"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="209dp" />
+
+    <Button
+        android:id="@+id/btnhelp"
+        android:layout_width="145dp"
+        android:background="@drawable/style_button"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        android:text="Hướng dẫn"
+        android:textColor="#ffff63"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="273dp" />
+
+    <Button
+        android:id="@+id/btnexit"
+        android:layout_width="145dp"
+        android:background="@drawable/style_button"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        android:text="EXIT"
+        android:textColor="#ffff63"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="337dp" />
+
+
+
+</LinearLayout>
+
